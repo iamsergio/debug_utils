@@ -16,8 +16,7 @@ namespace debug_utils {
 inline QString defaultFile()
 {
     QString appName = QCoreApplication::applicationName();
-    QString dateString = QDate::currentDate().toString("yyyyMMdd");
-    QString fileName = QStringLiteral("log-%1-%2.log").arg(appName, dateString);
+    QString fileName = QStringLiteral("log-%1.log").arg(appName);
 
     return QDir::cleanPath(QDir::tempPath() + QDir::separator() + fileName);
 }
