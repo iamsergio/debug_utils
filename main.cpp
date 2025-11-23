@@ -1,7 +1,7 @@
 // SPDX-FileCopyrightText: 2025 Sergio Martins
 // SPDX-License-Identifier: MIT
 
-#include "logging_qt.h"
+#include "qt_utils.h"
 
 #include <QtCore>
 
